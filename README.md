@@ -1,16 +1,23 @@
 # myconfinement
 
-A new Flutter project.
+Projet étudiant Développement Mobile.
 
-## Getting Started
+## Liste des tâches du projet 
 
-This project is a starting point for a Flutter application.
+### Todo List
+La création d'une tâche dans la liste est bonne ainsi que sa suppréssion (avec un swipe sur le coté). 
+Les tâches s'insert et se supprime en direct d'une BDD firebase qui est 100% fonctionnelle. 
+La deadline et les catégories ne sont pas mis en place.
 
-A few resources to get you started if this is your first Flutter project:
+### Carte google map
+La carte est sur l'application. 
+La localisation automatique est sensé être validé mais j'arrive pas à afficher le cursor.
+**Fonctionnement:** La map est ciblé sur mon emplacement actuel (chez moi) puis change en fonction de la ou l'on bouge.
+Les vélos ne sont pas mis en place.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Boussole
+La boussole est 100% fonctionnelle.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Agenda
+Utilisation de la caméra OK et affichage de la photo prise sur l'application.
+La gestion des photos avec la galerie n'est pas géré. J'ai pas réussi. Pareil pour la date et le lieu.
